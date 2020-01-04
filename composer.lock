@@ -1,0 +1,79 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "c3e5d26a6508312b0f9be1837f5c894a",
+    "packages": [
+        {
+            "name": "elbiniou/livingsource",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ElBiniou/livingsource.git",
+                "reference": "03ea01f7083e5f7fc079014ef32180e87b12c7ba"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ElBiniou/livingsource/zipball/03ea01f7083e5f7fc079014ef32180e87b12c7ba",
+                "reference": "03ea01f7083e5f7fc079014ef32180e87b12c7ba",
+                "shasum": ""
+            },
+            "require": {
+                "elbiniou/phi-console": "0.1.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "ElBiniou\\LivingSource\\": "source/class"
+                },
+                "files": []
+            },
+            "description": "Living source",
+            "support": {
+                "source": "https://github.com/ElBiniou/livingsource/tree/master",
+                "issues": "https://github.com/ElBiniou/livingsource/issues"
+            },
+            "time": "2020-01-04T14:50:24+00:00"
+        },
+        {
+            "name": "elbiniou/phi-console",
+            "version": "0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ElBiniou/phi-console.git",
+                "reference": "5e1dc367b662432a4adaa2d1d51311bb0fa7a5f4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ElBiniou/phi-console/zipball/5e1dc367b662432a4adaa2d1d51311bb0fa7a5f4",
+                "reference": "5e1dc367b662432a4adaa2d1d51311bb0fa7a5f4",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Phi\\Console\\": "source/class"
+                },
+                "files": []
+            },
+            "description": "Phi console",
+            "support": {
+                "source": "https://github.com/ElBiniou/phi-console/tree/0.1.0",
+                "issues": "https://github.com/ElBiniou/phi-console/issues"
+            },
+            "time": "2020-01-04T13:26:25+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "elbiniou/livingsource": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
