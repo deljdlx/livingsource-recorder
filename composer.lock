@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c3e5d26a6508312b0f9be1837f5c894a",
+    "content-hash": "dc615c00605c0ae68cc7e5c1e7f54d5d",
     "packages": [
         {
             "name": "elbiniou/livingsource",
@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ElBiniou/livingsource.git",
-                "reference": "03ea01f7083e5f7fc079014ef32180e87b12c7ba"
+                "reference": "ca7309808e631ea909aef297ce5b98c436ca854d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ElBiniou/livingsource/zipball/03ea01f7083e5f7fc079014ef32180e87b12c7ba",
-                "reference": "03ea01f7083e5f7fc079014ef32180e87b12c7ba",
+                "url": "https://api.github.com/repos/ElBiniou/livingsource/zipball/ca7309808e631ea909aef297ce5b98c436ca854d",
+                "reference": "ca7309808e631ea909aef297ce5b98c436ca854d",
                 "shasum": ""
             },
             "require": {
@@ -35,7 +35,7 @@
                 "source": "https://github.com/ElBiniou/livingsource/tree/master",
                 "issues": "https://github.com/ElBiniou/livingsource/issues"
             },
-            "time": "2020-01-04T14:50:24+00:00"
+            "time": "2020-01-04T19:11:53+00:00"
         },
         {
             "name": "elbiniou/phi-console",
@@ -64,13 +64,42 @@
                 "issues": "https://github.com/ElBiniou/phi-console/issues"
             },
             "time": "2020-01-04T13:26:25+00:00"
+        },
+        {
+            "name": "elbiniou/phi-filesystem",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ElBiniou/phi-filesystem.git",
+                "reference": "ad594c0d66a35d3ac5bab33d9bb1396a398084f1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ElBiniou/phi-filesystem/zipball/ad594c0d66a35d3ac5bab33d9bb1396a398084f1",
+                "reference": "ad594c0d66a35d3ac5bab33d9bb1396a398084f1",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Phi\\FileSystem\\": "source/class"
+                },
+                "files": []
+            },
+            "description": "Phi FileSystem",
+            "support": {
+                "source": "https://github.com/ElBiniou/phi-filesystem/tree/master",
+                "issues": "https://github.com/ElBiniou/phi-filesystem/issues"
+            },
+            "time": "2020-01-04T20:50:47+00:00"
         }
     ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "elbiniou/livingsource": 20
+        "elbiniou/livingsource": 20,
+        "elbiniou/phi-filesystem": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
